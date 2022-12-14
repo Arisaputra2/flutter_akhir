@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_live_score/berita.dart';
-import 'package:flutter_live_score/soccermodel.dart';
+import 'package:flutter_live_score/soccer_live/soccermodel.dart';
 import 'package:http/http.dart' as http;
 
 class SoccerApi {

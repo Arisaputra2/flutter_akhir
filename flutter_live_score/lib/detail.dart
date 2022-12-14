@@ -48,7 +48,9 @@ class Detail extends StatelessWidget {
                 SizedBox(
                   height: 5,
                 ),
-                Text('$content'),
+                Text(
+                  '$content',
+                ),
                 Divider(),
                 Text('$author'),
                 Text('$url')

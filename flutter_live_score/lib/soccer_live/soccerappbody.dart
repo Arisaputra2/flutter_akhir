@@ -19,6 +19,7 @@ class _SoccerAppState extends State<SoccerApp> {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           backgroundColor: Color.fromARGB(255, 155, 1, 13),
           elevation: 0.0,
           title: Text(
@@ -54,6 +55,7 @@ class _SoccerAppState extends State<SoccerApp> {
                   if (i == 1) {
                     Navigator.push(context,
                         MaterialPageRoute(builder: ((context) => Berita())));
+                    //  Navigator.pushReplacementNamed(context, MaterialPageRoute(builder: ((context) => Berita()));
                   } else {}
                 })));
   }

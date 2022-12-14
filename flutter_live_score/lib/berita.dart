@@ -26,6 +26,7 @@ class _BeritaState extends State<Berita> {
     int _currentIndex = 0;
     return Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           title: Text('Berita Bola'),
           centerTitle: true,
           backgroundColor: Color.fromARGB(255, 155, 1, 13),
